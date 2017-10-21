@@ -1,0 +1,34 @@
+{
+    "name": "gander/symfony-callback-denormalizer",
+    "description": "Symfony Callback Denormalizer",
+    "type": "library",
+    "keywords": [
+        "package",
+        "symfony",
+        "serializer",
+        "callback",
+        "denormalizer"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Gąsowski",
+            "email": "adam.gasowski@gander.pl"
+        }
+    ],
+    "homepage": "http://gander.tools",
+    "require": {
+        "php": ">=5.4",
+        "symfony/serializer": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gander\\Symfony\\Component\\Serializer\\Normalizer\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
